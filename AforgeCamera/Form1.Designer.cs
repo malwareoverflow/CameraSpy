@@ -195,7 +195,7 @@
             this.Controls.Add(this.Shotbutton);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Camera Spy";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.stealthpanel.ResumeLayout(false);
