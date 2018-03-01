@@ -86,6 +86,49 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="AforgeLibrary\Release\AForge.Controls.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Controls.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.DebuggerVisualizers %282010%29.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Fuzzy.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Fuzzy.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Genetic.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Genetic.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Imaging.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Imaging.Formats.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Imaging.Formats.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Imaging.IPPrototyper.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Imaging.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.MachineLearning.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.MachineLearning.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Math.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Math.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Neuro.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Neuro.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.Lego.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.Lego.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.Surveyor.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.Surveyor.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.TeRK.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Robotics.TeRK.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.DirectShow.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.DirectShow.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.FFMPEG.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.FFMPEG.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.Kinect.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.Kinect.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.VFW.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.VFW.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.Ximea.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.Ximea.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Video.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.Vision.dll" />
+    <Content Include="AforgeLibrary\Release\AForge.Vision.xml" />
+    <Content Include="AforgeLibrary\Release\AForge.xml" />
+    <Content Include="AforgeLibrary\Release\IPPrototyper.exe" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
