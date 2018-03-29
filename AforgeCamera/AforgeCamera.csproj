@@ -33,13 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge">
-      <HintPath>..\..\..\..\..\Downloads\Release\AForge.dll</HintPath>
+      <HintPath>..\..\MalwareServer\AForge.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video">
-      <HintPath>..\..\..\..\..\Downloads\Release\AForge.Video.dll</HintPath>
+      <HintPath>F:\JPEGXR\withoutjepgXr\AForge.Video.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.DirectShow">
-      <HintPath>..\..\..\..\..\Downloads\Release\AForge.Video.DirectShow.dll</HintPath>
+      <HintPath>..\..\MalwareServer\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,16 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CameraSpy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CameraSpy.Designer.cs">
+      <DependentUpon>CameraSpy.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CameraSpy.resx">
+      <DependentUpon>CameraSpy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

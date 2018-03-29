@@ -17,7 +17,7 @@ using AForge.Video.DirectShow;
 
 namespace AforgeCamera
 {
-    public partial class Form1 : Form
+    public partial class CameraSpy : Form
     {
         private FilterInfoCollection CaptureDevice;
         private VideoCaptureDevice FinalFrame;
@@ -33,7 +33,7 @@ namespace AforgeCamera
 
         public string Savepath;
 
-        public Form1()
+        public CameraSpy()
         {
             InitializeComponent();
           
